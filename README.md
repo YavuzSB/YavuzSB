@@ -19,4 +19,4 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yavuzsb&" alt="yavuzsb" /></p>
 
-![Snake animation](https://github.com/YavuzSB/YavuzSB/blob/snk/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/YavuzSB/YavuzSB/blob/output/github-contribution-grid-snake.svg)
