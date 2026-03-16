@@ -1,4 +1,4 @@
-<!-- [![MasterHead](http:) -->
+<!-- [![MasterHead](http:) 
 <h1 align="center">Hi 👋, I'm Yavuz Selim Bıçakçı</h1>
 <h3 align="center">Software Engineering Student | Developer | Dreamer</h3>
 
@@ -20,3 +20,4 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yavuzsb&" alt="yavuzsb" /></p>
 
 ![Snake animation](https://github.com/YavuzSB/YavuzSB/blob/output/github-contribution-grid-snake.svg)
+-->
