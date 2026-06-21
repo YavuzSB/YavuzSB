@@ -16,10 +16,5 @@
 ```
 🚀 NOW SHIPPING // ACTIVE ECOSYSTEMS (Geliştirilen Sistemler)
 📊 TELEMETRY METRICS (Yerel Derlenen Grafik Katmanı)
-
-<p align="center">
-  <img src="assets/generated/stats-card.svg" alt="Telemetry Metrics" />
-</p>
-
 🛠️ INFRASTRUCTURE HARDWARE MATRIX
 📡 Sistemi İlk Kez Tetikleme ve Başlatma Protokolü
