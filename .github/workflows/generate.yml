@@ -1,0 +1,41 @@
+name: Generate Profile Assets
+
+on:
+  schedule:
+    # Her gece saat 00:00'da otomatik çalıştır (UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Manuel olarak da tetikleme butonu ekler
+
+permissions:
+  contents: write # Üretilen SVG'leri depoya geri yazabilmesi için kritik izin
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install System Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Execute Python SVG Core Engine
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m generator.main
+
+      - name: Deploy & Commit Generated Assets
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add assets/generated/*.svg || true
+          git commit -m "Telemetry: Update real-time system graphics [skip ci]" -a || true
+          git push
