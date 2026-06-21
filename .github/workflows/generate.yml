@@ -1,6 +1,9 @@
 name: Generate Profile Assets
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Her gece saat 00:00'da otomatik çalıştır (UTC)
     - cron: '0 0 * * *'
