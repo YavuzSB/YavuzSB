@@ -89,7 +89,7 @@
         <rect x="220" y="43" width="50" height="4" fill="#facc15" filter="url(#glow-light)"/>
     </g>
 
-    <text x="790" y="90" class="hud-text" text-anchor="end" fill="#9ca3af">SYS_TIME: 2026-06-26 03:37:04</text>
+    <text x="790" y="90" class="hud-text" text-anchor="end" fill="#9ca3af">SYS_TIME: 2026-06-27 03:22:07</text>
 
     <!-- Left Column: Hexagon Core Metrics -->
     <g transform="translate(60, 150)">
